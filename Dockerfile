@@ -63,3 +63,6 @@ RUN apt-get install -y --no-install-recommends iputils-ping iproute2 bc netcat-o
 RUN apt-get install -y --no-install-recommends ccache
 
 RUN apt-get install -y --no-install-recommends libfuse-dev
+
+RUN apt-get install -y --no-install-recommends gdbserver
+
