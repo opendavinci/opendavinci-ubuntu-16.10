@@ -68,3 +68,5 @@ RUN apt-get install -y --no-install-recommends gdbserver
 
 RUN apt-get install -y --no-install-recommends python2.7
 
+RUN apt-get install -y --no-install-recommends libncurses-dev
+
